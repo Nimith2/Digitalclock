@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+  }
+  .clock {
+    font-size: 5rem;
+    color: white;
+    padding: 20px;
+    border: 5px solid #61dafb;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  }
+.clock:hover {
+    transform: scale(1.1);
+    background-color: #61dafb;
+    border-color: white;
+  }
+  
